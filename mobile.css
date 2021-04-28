@@ -1,0 +1,36 @@
+@media (max-width: 480px){
+    .container-one{
+        display: none;
+    }
+    .container-two{
+        width: 100%;
+        display: block;
+    }
+    .container-two nav{
+        width: 100%;
+        display: flex;
+        background-color: rgb(215, 190, 238);
+        flex-direction: row;
+        align-items: center;
+    }
+    .container-two nav ul{
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    .container-two nav ul li{
+        font-family: 'Antonio', sans-serif;
+        font-size: 15px;
+        padding: 10px;
+        text-align: center;
+    }
+    .container-two nav ul li:hover{
+        background-color:rgb(157, 101, 209) ;
+        cursor: pointer;
+    }
+    
+}
